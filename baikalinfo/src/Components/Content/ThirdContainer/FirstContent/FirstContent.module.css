@@ -1,0 +1,127 @@
+.bg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    'head head head head'
+    'box1 box2 box3 box4';
+    
+}
+.head {
+  border-top: 3px solid #2AA9E6;
+  width: 1218px;
+  height: 0px;
+  grid-area: head;
+  margin-top: 186px;
+}
+.head .p {
+  width: 194px;
+  height: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2AA9E6;
+  margin-top: 32px;
+}
+
+.box1 {
+  width: 282px;
+  height: 197px;
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 51.13%), #171821;
+  border-radius: 5px;
+  grid-area: box1;
+  margin-top: 84px;
+}
+.box1 .p {
+  width: 236px;
+  height: 36px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: -0.05em;  
+  color: #FFFFFF;
+  margin-top: 137px;
+}
+
+.box2 {
+  width: 282px;
+  height: 197px;
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 51.13%), #171821;
+  border-radius: 5px;
+  grid-area: box2;
+  margin-top: 84px;
+  margin-left: 10px;
+}
+.box2 .p {
+  width: 236px;
+  height: 36px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: -0.05em;  
+  color: #FFFFFF;
+  margin-top: 137px;
+}
+
+.box3 {
+  width: 282px;
+  height: 197px;
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 51.13%), #171821;
+  border-radius: 5px;
+  grid-area: box3;
+  margin-top: 84px;
+  margin-left: 20px;
+}
+.box3 .p {
+  width: 236px;
+  height: 36px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: -0.05em;  
+  color: #FFFFFF;
+  margin-top: 137px;
+}
+
+.box4 {
+  width: 282px;
+  height: 197px;
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 51.13%), #171821;
+  border-radius: 5px;
+  grid-area: box4;
+  margin-top: 84px;
+  margin-left: 30px;
+}
+.box4 .p {
+width: 236px;
+height: 52px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: -0.05em;  
+  color: #FFFFFF;
+  margin-top: 137px;
+}

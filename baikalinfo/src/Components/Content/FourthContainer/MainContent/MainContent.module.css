@@ -1,0 +1,390 @@
+.bg {
+    width: 802px;
+    height: 1680px;
+    grid-area: MainC;
+}
+.head {
+    width: 802px;
+    height: 0px;
+    border-top: 3px solid #888994;
+}
+.head p {
+    width: 175px;
+    height: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #171821;
+    margin-top: 32px;
+}
+
+.box1 {
+    width: 802px;
+    height: 241px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 84px;
+}
+.box1 .p1 {
+    margin-left: 400px;
+    margin-top: -220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: -0.05em;
+    color: #171821;
+}
+.box1 .p2 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83858F;
+}
+.box1 .p3 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #54555E;
+}
+.box1 .boxblack1 {
+    width: 401px;
+    height: 241px;
+    background: #171821;
+    border-radius: 5px 0px 0px 5px;
+    margin-left: -40px;
+}
+.box1 .boxblack1 .blackp1 {
+    background: #0E79C9;
+    border-radius: 5px;
+    color: #FFFFFF; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 437px;
+    margin-left: -20px;
+    display: inline;
+    text-transform: uppercase;
+    padding: 6px;    
+}
+
+.box2 {
+    width: 802px;
+    height: 241px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+.box2 .p1 {
+    margin-left: 400px;
+    margin-top: -220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: -0.05em;
+    color: #171821;
+}
+.box2 .p2 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83858F;
+}
+.box2 .p3 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #54555E;
+}
+.box2 .boxblack2 {
+    width: 401px;
+    height: 241px;
+    background: #171821;
+    border-radius: 5px 0px 0px 5px;
+    margin-left: -40px;
+}
+.box2 .boxblack2 .blackp2 {
+    background: #7B1FA2;
+    border-radius: 5px;
+    color: #FFFFFF; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 437px;
+    margin-left: -20px;
+    display: inline;
+    text-transform: uppercase;
+    padding: 6px;    
+}
+
+.box3 {
+    width: 802px;
+    height: 241px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.box3 .p1 {
+    margin-left: 400px;
+    margin-top: -220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: -0.05em;
+    color: #171821;
+}
+.box3 .p2 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83858F;
+}
+.box3 .p3 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #54555E;
+}
+.box3 .boxblack3 {
+    width: 401px;
+    height: 241px;
+    background: #171821;
+    border-radius: 5px 0px 0px 5px;
+    margin-left: -40px;
+}
+.box3 .boxblack3 .blackp3 {
+    background: #E65100;
+    border-radius: 5px;
+    color: #FFFFFF; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 437px;
+    margin-left: -20px;
+    display: inline;
+    text-transform: uppercase;
+    padding: 6px;    
+}
+
+.box4 {
+    width: 802px;
+    height: 241px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.box4 .p1 {
+    margin-left: 400px;
+    margin-top: -220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: -0.05em;
+    color: #171821;
+}
+.box4 .p2 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83858F;
+}
+.box4 .p3 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #54555E;
+}
+.box4 .boxblack4 {
+    width: 401px;
+    height: 241px;
+    background: #171821;
+    border-radius: 5px 0px 0px 5px;
+    margin-left: -40px;
+}
+.box4 .boxblack4 .blackp4 {
+    background: #3E3EDD;
+    border-radius: 5px;
+    color: #FFFFFF; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 437px;
+    margin-left: -20px;
+    display: inline;
+    text-transform: uppercase;
+    padding: 6px;    
+}
+
+.box5 {
+    width: 802px;
+    height: 241px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.box5 .p1 {
+    margin-left: 400px;
+    margin-top: -220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: -0.05em;
+    color: #171821;
+}
+.box5 .p2 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83858F;
+}
+.box5 .p3 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #54555E;
+}
+.box5 .boxblack5 {
+    width: 401px;
+    height: 241px;
+    background: #171821;
+    border-radius: 5px 0px 0px 5px;
+    margin-left: -40px;
+}
+.box5 .boxblack5 .blackp5 {
+    background: #19C22A;
+    border-radius: 5px;
+    color: #FFFFFF; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 437px;
+    margin-left: -20px;
+    display: inline;
+    text-transform: uppercase;
+    padding: 6px;    
+}
+
+.box6 {
+    width: 802px;
+    height: 241px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.box6 .p1 {
+    margin-left: 400px;
+    margin-top: -220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: -0.05em;
+    color: #171821;
+}
+.box6 .p2 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83858F;
+}
+.box6 .p3 {
+    margin-left: 400px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #54555E;
+}
+.box6 .boxblack6 {
+    width: 401px;
+    height: 241px;
+    background: #171821;
+    border-radius: 5px 0px 0px 5px;
+    margin-left: -40px;
+}
+.box6 .boxblack6 .blackp6 {
+    background: #00BCD4;
+    border-radius: 5px;
+    color: #FFFFFF; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 437px;
+    margin-left: -20px;
+    display: inline;
+    text-transform: uppercase;
+    padding: 6px;    
+}

@@ -1,0 +1,314 @@
+.bg {
+    background: #2AA9E6;
+    height: 380px;
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        'info links publication subscribe';
+    margin-top: 130px;
+}
+
+.info {
+    width: 201px;
+    height: 34px;
+    margin-top: 70px;
+    margin-left: 74px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;    
+    color: #FFFFFF;
+    grid-area: info;
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        'info info info info'
+        'circle1 circle2 circle3 circle4';
+}
+.info .circle1 {
+    width: 48px;
+    height: 46px;
+    background: #36528C;
+    border-radius: 50%;
+    grid-area: circle1;
+    margin-top: 72px;
+}
+.info .circle2 {
+    width: 48px;
+    height: 46px;
+    background: #2476b4;
+    border-radius: 50%;
+    grid-area: circle2;
+    margin-top: 72px;
+    margin-right: 8px;
+    margin-left: -30px;
+}
+.info .circle3 {
+    width: 48px;
+    height: 46px;
+    background: #DE4B39;
+    border-radius: 50%;
+    grid-area: circle3;
+    margin-top: 72px;
+    margin-right: 8px;
+}
+.info .circle4 {
+    width: 48px;
+    height: 46px;
+    background: #C13282;
+    border-radius: 50%;
+    grid-area: circle4;
+    margin-top: 72px;
+    margin-right: 8px;
+}
+
+.links {
+    width: 179px;
+    height: 193px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;    
+    color: #FFFFFF;   
+    grid-area: links; 
+    margin-top: 70px;
+}
+.links .p1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF; 
+    margin-top: 25px;
+}
+.links .p1:hover {
+    text-decoration: underline;
+}
+.links .p2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF; 
+}
+.links .p2:hover {
+    text-decoration: underline;
+}
+.links .p3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF; 
+}
+.links .p3:hover {
+    text-decoration: underline;
+}
+.links .p4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF; 
+}
+.links .p4:hover {
+    text-decoration: underline;
+}
+.links .p5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF; 
+}
+.links .p5:hover {
+    text-decoration: underline;
+}
+
+.publication {
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'pubp pubp'
+        'crcl1 p1'
+        'crcl1 p2'
+        'crcl2 p3'
+        'crcl2 p4';
+    grid-area: publication;
+    margin-top: 70px;
+}
+.publication .p{
+    width: 237px;
+    height: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;    
+    color: #FFFFFF;    
+    grid-area: pubp;
+}
+.crcl1 {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: #F7F7F7;
+    grid-area: crcl1;
+}
+.pp1{
+    width: 214px;
+    height: 59px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.05em;    
+    color: #FFFFFF;    
+    grid-area: p1;
+    margin-left: -150px;
+    margin-top: 10px;
+}
+.pp2{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;    
+    color: #54555E;
+    grid-area: p2;
+    margin-left: -150px;
+    margin-top: -25px;
+}
+
+.crcl2 {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: #F7F7F7;
+    grid-area: crcl2;
+}
+.pp3{
+    width: 214px;
+    height: 59px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.05em;    
+    color: #FFFFFF;  
+    grid-area: p3;
+    margin-left: -150px;
+    margin-top: 20px;
+}
+.pp4{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;    
+    color: #54555E;
+    grid-area: p4;
+    margin-left: -150px;
+    margin-top: -25px;
+}
+
+
+.subscribe {
+    grid-area: subscribe;
+    margin-top: 70px;
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'tt1 tt1'
+        'tt2 tt2'
+        'txtarea buttn';
+}
+.subscribe .tt1 {
+    width: 237px;
+    height: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;    
+    color: #FFFFFF;  
+    grid-area: tt1;  
+}
+.subscribe .tt2 {
+    width: 249px;
+    height: 20px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #54555E; 
+    margin-top: 10px;
+    grid-area: tt2;  
+}
+.btn {
+    width: 81px;
+    height: 46px;
+    background: #2D95E3;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 5px 5px 0px;
+    font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  border: 0px;
+  grid-area: buttn;  
+  margin-left: -80px;
+  }
+  .btn:hover {
+    font-size: 15px;
+    border: 1px solid #ffffff;
+  }
+  .btn:active {
+    border: 0.5px solid #88bafc;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+  }
+  
+  .txtar {
+    background: #FFFFFF;
+  border: 1px solid #E3E4E8;
+  box-sizing: border-box;
+  border-radius: 5px 0px 0px 5px;
+  padding: 15px;
+  resize: none;
+      width: 222px;
+      height: 46px;
+    margin-left: 35px;
+    overflow: hidden;
+    grid-area: txtarea;  
+    margin-left: -1px;
+    margin-bottom: 100px;
+  }

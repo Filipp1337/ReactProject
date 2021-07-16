@@ -1,0 +1,376 @@
+.bg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    'bdhead'
+    'layer1'
+    'layer2';
+}
+
+.borderhead {
+    width: 1200px;
+    height: 0px;
+    border-top: 2px solid #2AA9E6;
+    margin-top: 50px;
+    grid-area: bdhead;
+    margin-left: 10px;
+}
+.borderhead .phead {
+    width: 309px;
+    height: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;    
+    color: #F44336;
+    margin-top: 32px;
+}
+
+.layer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    'sbox1l1 bbox1l1 sbox2l1';
+    grid-area: layer1;
+    margin-top: 84px;
+}
+.layer1 .sbox1l1 {
+    width: 282px;
+    height: 460px;
+    background: #171821;
+    grid-area: sbox1l1;
+    margin-left: -30px;
+}
+.sbox1l1 .textgrid1 {
+    height: 267px;
+    width: 282px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+    'textp1'
+    'textp2'
+    'textp3';
+    margin-top: 193px;
+    margin-left: -40px;
+}
+.textgrid1 .textp1 {
+    width: 71px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #F44336;
+    grid-area: textp1;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.textgrid1 .textp2 {
+    width: 282px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;    
+    color: #171821;
+    grid-area: textp2;
+    margin-left: -40px;
+    margin-top: -70px;
+}
+.textgrid1 .textp3 {
+    width: 282px;
+    height: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: lowercase;    
+    color: #54555E;
+    grid-area: textp3;
+    margin-top: -80px;
+    margin-left: -40px;
+}
+
+
+.layer1 .bbox1l1 {
+    width: 614px;
+    height: 460px;
+    left: 376px;
+    top: 1380px;    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0) 75.22%), #171821;
+    border-radius: 0px;
+    background: #171821;
+    grid-area: bbox1l1;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.bbox1l1 .txtbboxl11{
+    width: 71px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 290px;
+}
+.bbox1l1 .txtbboxl12{
+    width: 522px;
+    height: 72px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;    
+    color: #FFFFFF;
+}
+
+
+.layer1 .sbox2l1 {
+    width: 282px;
+    height: 460px;
+    background: #171821;
+    grid-area: sbox2l1;
+    margin-right: 10px;
+}
+.sbox2l1 .textgrid2 {
+    height: 267px;
+    width: 282px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+    'textp1'
+    'textp2'
+    'textp3';
+    margin-top: 193px;
+    margin-left: -40px;
+}
+.textgrid2 .textp1 {
+    width: 71px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #F44336;
+    grid-area: textp1;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.textgrid2 .textp2 {
+    width: 282px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;    
+    color: #171821;
+    grid-area: textp2;
+    margin-left: -40px;
+    margin-top: -70px;
+}
+.textgrid2 .textp3 {
+    width: 282px;
+    height: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: lowercase;    
+    color: #54555E;
+    grid-area: textp3;
+    margin-top: -80px;
+    margin-left: -40px;
+}
+
+.layer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    'bbox1l2 sbox1l2  sbox2l2';
+    grid-area: layer2;
+    margin-top: 20px;
+}
+.layer2 .sbox1l2 {
+    width: 282px;
+    height: 460px;
+    background: #171821;
+    grid-area: sbox1l2;
+    margin-left: 10px;
+}
+.sbox1l2 .textgrid3 {
+    height: 267px;
+    width: 282px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+    'textp1'
+    'textp2'
+    'textp3';
+    margin-top: 193px;
+    margin-left: -40px;
+}
+.textgrid3 .textp1 {
+    width: 71px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #F44336;
+    grid-area: textp1;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.textgrid3 .textp2 {
+    width: 282px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;    
+    color: #171821;
+    grid-area: textp2;
+    margin-left: -40px;
+    margin-top: -70px;
+}
+.textgrid3 .textp3 {
+    width: 282px;
+    height: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: lowercase;    
+    color: #54555E;
+    grid-area: textp3;
+    margin-top: -80px;
+    margin-left: -40px;
+}
+
+.layer2 .bbox1l2 {
+    width: 614px;
+    height: 460px;
+    left: 376px;
+    top: 1380px;    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0) 75.22%), #171821;
+    border-radius: 0px;
+    background: #171821;
+    grid-area: bbox1l2;
+    margin-left: -30px;    
+}
+.bbox1l2 .txtbboxl21{
+    width: 71px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 290px;
+}
+.bbox1l2 .txtbboxl22{
+    width: 522px;
+    height: 72px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;    
+    color: #FFFFFF;
+}
+
+.layer2 .sbox2l2 {
+    width: 282px;
+    height: 460px;
+    background: #171821;
+    grid-area: sbox2l2;
+    margin-left: 5px;
+}
+.sbox2l2 .textgrid4 {
+    height: 267px;
+    width: 282px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+    'textp1'
+    'textp2'
+    'textp3';
+    margin-top: 193px;
+    margin-left: -40px;
+}
+.textgrid4 .textp1 {
+    width: 71px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #F44336;
+    grid-area: textp1;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.textgrid4 .textp2 {
+    width: 282px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;    
+    color: #171821;
+    grid-area: textp2;
+    margin-left: -40px;
+    margin-top: -70px;
+}
+.textgrid4 .textp3 {
+    width: 282px;
+    height: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: lowercase;    
+    color: #54555E;
+    grid-area: textp3;
+    margin-top: -80px;
+    margin-left: -40px;
+}

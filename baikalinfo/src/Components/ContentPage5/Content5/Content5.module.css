@@ -1,0 +1,103 @@
+.bg {
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 100px;
+    height: 500px;
+}
+
+.p1 {
+    width: 242px;
+    height: 20px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;    
+    color: #171821;
+}
+.p2 {
+    width: 105px;
+    height: 19px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;    
+    color: #54555E;
+}
+.p3 {
+    width: 39px;
+    height: 19px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 110px;
+    text-transform: capitalize;    
+    color: #54555E;
+}
+.p4 {
+    width: 47px;
+    height: 19px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;    
+    color: #54555E;
+    padding-top: 10px;
+    padding-left: 260px;
+}
+.txtar1 {
+    width: 738px;
+    height: 185px;    
+    background: #F7F7F7;
+    border: 1px solid #E3E4E8;
+    box-sizing: border-box;
+    resize: none;
+}
+.txtar2 {
+    width: 230px;
+    height: 46px;    
+    background: #F7F7F7;
+    border: 1px solid #E3E4E8;
+    box-sizing: border-box;
+    resize: none;
+}
+.txtar3 {
+    width: 230px;
+    height: 46px;    
+    background: #F7F7F7;
+    border: 1px solid #E3E4E8;
+    box-sizing: border-box;
+    resize: none;
+    margin-left: 25px;
+}
+.btn {
+    width: 148px;
+    height: 46px;    
+    background: #F44336;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #FFFFFF;    
+    margin-top: 25px;
+    border: 0px;
+    margin-bottom: -20px;
+    padding-left: 50px;
+}
+.btn:hover {
+    border: 2px solid white;
+}
+.btn:active {
+    border: 1px solid white;
+}

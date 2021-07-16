@@ -1,0 +1,35 @@
+.header {
+    padding: 10px;
+    font-weight: bold;
+    font-style: sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'headp heada';
+    grid-area: header;
+    border-top: 3px solid #2AA9E6;
+    position: relative;
+    top: 10px;
+    width: 90%;
+}
+.a {
+    margin: 1px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    grid-area: heada;    
+    padding: 5px;    
+    margin-left: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 90%;
+    bottom: 50px;
+}
+.a:hover {
+    color: #2AA9E6;
+}
+
+.p {
+    color:#2AA9E6;
+    grid-area: headp;
+    font-size: 30px;
+}

@@ -1,0 +1,69 @@
+.bg {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'box1 box2';
+}
+
+.box1 {
+    grid-area: box1;
+    width: 594px;
+    height: 537px;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.36) 0%, rgba(0, 0, 0, 0) 78.31%), #171821;
+    border-radius: 0px;
+    margin-left: 10px;
+}
+.box1 .p1 {
+    width: 522px;
+    height: 122px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;    
+    color: #FFFFFF;
+    margin-top: 340px;
+}
+.box1 .p2 {
+    width: 326px;
+    height: 16px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}
+
+.box2 {
+    grid-area: box2;
+    width: 594px;
+    height: 537px;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.36) 0%, rgba(0, 0, 0, 0) 78.31%), #171821;
+    border-radius: 0px;
+    margin-left: 5px;
+}
+.box2 .p1 {
+    width: 522px;
+    height: 122px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;    
+    color: #FFFFFF;
+    margin-top: 340px;
+}
+.box2 .p2 {
+    width: 326px;
+    height: 16px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}

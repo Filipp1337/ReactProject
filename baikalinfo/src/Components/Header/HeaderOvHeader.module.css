@@ -1,0 +1,12 @@
+.header {
+    background-color: #2AA9E6;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.header a {
+    margin: 1px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}

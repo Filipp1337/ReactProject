@@ -1,0 +1,43 @@
+.bg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    'block2'
+    'p1'
+    'p2';
+}
+
+.block2 {
+    width: 282px;
+    height: 193px;
+    background: #171821;
+    grid-area: block1;
+    margin-top: 90px;
+    margin-right: 10px;
+}
+.block2 .p1 {
+    width: 92px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #F44336;
+    grid-area: p1;
+    margin-top: 219px;
+}
+.block2 .p2 {
+    width: 282px;
+    height: 39px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;    
+    color: #171821;    
+    grid-area: p2;
+}

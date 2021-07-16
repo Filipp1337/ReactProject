@@ -1,0 +1,9 @@
+.page {
+    display: grid;    
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas:
+        'MainC Ad'
+        'MainC Categories'
+        'MainC Recomendation';
+    margin-top: 112px;
+}

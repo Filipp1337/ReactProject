@@ -1,0 +1,138 @@
+.post1 {
+    grid-area: post1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'hedp1'
+    'box1p1'
+    'b1p1'
+    'b1p2'
+    'sbox1p1'
+    'sbox2p1';
+}
+.post1 .hedp1 {
+    grid-area: hedp1;
+    width: 98px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;    
+    color: #FF5722;    
+}
+.post1 .box1p1 {
+    grid-area: box1p1;
+    width: 386px;
+    height: 290px;
+    background: #171821;
+}
+.post1 .p1 {
+    grid-area: b1p1;
+    width: 386px;
+    height: 41px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;    
+    color: #171821;
+    margin-top: 20px;
+}
+.post1 .p2 {
+    grid-area: b1p2;
+    width: 326px;
+    height: 16px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;    
+    color: #83858F;
+}
+.post1 .p2 .borderpo1p2 {
+    width: 386px;
+    height: 0px;
+    border-bottom: 1px solid #E3E4E8;
+    margin-top: 20px;
+}
+.post1 .sbox1p1 {
+    grid-area: sbox1p1;
+    width: 84px;
+    height: 67px;
+    background: #171821;
+    margin-top: 50px;
+}
+.sbox1p1 .p1 {
+    width: 293px;
+    height: 35px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;    
+    color: #54555E;
+    margin-left: 70px;
+    margin-top: -1px;
+}
+.sbox1p1 .p2 {
+    width: 199px;
+    height: 14px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;    
+    color: #83858F;
+    margin-left: 70px;
+    margin-top: -10px;    
+}
+.sbox1p1 .bordersb1p2 {
+    width: 386px;
+    height: 0px;
+    border-bottom: 1px solid #E3E4E8;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.post1 .sbox2p1 {
+    grid-area: sbox2p1;
+    width: 84px;
+    height: 67px;
+    background: #171821;
+    margin-top: 50px;
+}
+.sbox2p1 .p1 {
+    width: 293px;
+    height: 35px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;    
+    color: #54555E;
+    margin-left: 70px;
+    margin-top: -1px;
+}
+.sbox2p1 .p2 {
+    width: 199px;
+    height: 14px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;    
+    color: #83858F;
+    margin-left: 70px;
+    margin-top: -10px; 
+}
+.sbox2p1 .bordersb2p2 {
+    width: 386px;
+    height: 0px;
+    border-bottom: 1px solid #E3E4E8;
+    margin-top: 30px;
+    margin-left: -40px;
+}

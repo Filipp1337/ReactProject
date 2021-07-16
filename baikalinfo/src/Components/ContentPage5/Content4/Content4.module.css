@@ -1,0 +1,195 @@
+.bg {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'phead'
+    'box1'
+    'box2'
+    'box3';
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+
+.phead {
+    width: 738px;
+    height: 20px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;    
+    color: #171821;
+    border-top: 3px solid #888994;
+    padding-top: 20px;   
+    grid-area: phead;
+}
+
+.box1 {
+    width: 209px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    'crcl1';
+    grid-area: box1;
+    margin-top: 30px;
+}
+.box1 .crcl1 {
+    width: 46px;
+    height: 46px;    
+    background: #171821;
+    border-radius: 50%;
+    grid-area: crcl1;
+}
+.crcl1 .p1 {
+    width: 103px;
+    height: 18px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.05em;    
+    color: #171821;
+    grid-area: p1;
+    margin-left: 30px;
+}
+.crcl1 .p2 {
+    width: 668px;
+    height: 43px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;    
+    color: #54555E;
+    grid-area: p2;
+    margin-left: 30px;
+}
+.crcl1 .p3 {
+    width: 538px;
+    height: 22px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;    
+    color: #83858F;
+    border-bottom: 1px solid #888994;
+    grid-area: p3;
+    margin-left: 30px;
+}
+
+
+.box2 {
+    width: 209px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    'crcl2';
+    grid-area: box2;
+    margin-top: 124px;
+    margin-left: 60px;
+}
+.box2 .crcl2 {
+    width: 46px;
+    height: 46px;    
+    background: #171821;
+    border-radius: 50%;
+    grid-area: crcl2;
+}
+.crcl2 .p1 {
+    width: 103px;
+    height: 18px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.05em;    
+    color: #171821;
+    grid-area: p1;
+    margin-left: 30px;
+}
+.crcl2 .p2 {
+    width: 668px;
+    height: 43px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;    
+    color: #54555E;
+    grid-area: p2;
+    margin-left: 30px;
+}
+.crcl2 .p3 {
+    width: 538px;
+    height: 22px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;    
+    color: #83858F;
+    border-bottom: 1px solid #888994;
+    grid-area: p3;
+    margin-left: 30px;
+}
+
+.box3 {
+    width: 209px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    'crcl3';
+    grid-area: box3;
+    margin-top: 124px;
+}
+.box3 .crcl3 {
+    width: 46px;
+    height: 46px;    
+    background: #171821;
+    border-radius: 50%;
+    grid-area: crcl3;
+}
+.crcl3 .p1 {
+    width: 103px;
+    height: 18px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.05em;    
+    color: #171821;
+    grid-area: p1;
+    margin-left: 30px;
+}
+.crcl3 .p2 {
+    width: 668px;
+    height: 43px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;    
+    color: #54555E;
+    grid-area: p2;
+    margin-left: 30px;
+}
+.crcl3 .p3 {
+    width: 538px;
+    height: 22px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;    
+    color: #83858F;
+    border-bottom: 1px solid #888994;
+    grid-area: p3;
+    margin-left: 30px;
+}

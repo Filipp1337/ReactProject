@@ -1,0 +1,93 @@
+.bg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'head head'
+    'box1 box2'
+    'text1 text2';   
+}
+
+.head {
+  width: 1218px;
+  height: 0px;
+  border-top: 3px solid #2AA9E6;
+  grid-area: head;
+}
+.head .p {
+  width: 158px;
+  height: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;  
+  color: #171821;
+  margin-top: 32px;
+}
+
+.box1 {
+  width: 594px;
+  height: 386px;
+  background: #171821;
+  grid-area: box1;
+  margin-top: 64px;
+}
+.box2 {
+  width: 594px;
+  height: 386px;
+  background: #171821;
+  grid-area: box2;
+  margin-left: 30px;
+  margin-top: 64px;
+}
+
+.text1 {
+  width:594px;
+  height:84px;
+  grid-area: text1;
+}
+.text1 .p1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 31px;
+  letter-spacing: -0.05em;  
+  color: #171821;
+}
+.text1 .p2 {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #83858F;
+}
+
+.text2 {
+  width:594px;
+  height:84px;
+  grid-area: text2;
+  margin-left: 30px;
+}
+.text2 .p1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 31px;
+  letter-spacing: -0.05em;  
+  color: #171821;
+}
+.text2 .p2 {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #83858F;
+}

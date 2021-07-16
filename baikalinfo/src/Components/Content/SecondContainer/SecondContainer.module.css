@@ -1,0 +1,9 @@
+.page {
+    display: grid;    
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas:
+        'header bp'
+        'scc bp'
+        'scc subsc'
+        'scc sn';
+}

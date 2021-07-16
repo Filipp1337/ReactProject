@@ -1,0 +1,89 @@
+.bg {
+    height: 843px;
+    width: 380px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'head'
+    'box1'
+    'p1'
+    'box2'
+    'p2'
+    'box3'
+    'p3';
+    grid-area: videos;
+    margin-top: 55px;
+}
+.head {
+    width: 184px;
+    height: 18px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;    
+    color: #171821;
+    grid-area: head;
+    margin-left: 20px;
+}
+
+.box1 {
+    width: 366px;
+    height: 183px;
+    background: #171821;
+    grid-area: box1;
+    margin-left: 20px;
+}
+.p1 {
+    width: 320px;
+    height: 36px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;    
+    color: #171821;
+    grid-area: p1;
+    margin-left: 20px;
+}
+
+.box2 {
+    width: 366px;
+    height: 183px;
+    background: #171821;
+    grid-area: box2;
+    margin-left: 20px;
+}
+.p2 {
+    width: 320px;
+    height: 36px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;    
+    color: #171821;
+    grid-area: p2;
+    margin-left: 20px;
+}
+
+.box3 {
+    width: 366px;
+    height: 183px;
+    background: #171821;
+    grid-area: box3;
+    margin-left: 20px;
+}
+.p3 {
+    width: 320px;
+    height: 36px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;    
+    color: #171821;
+    grid-area: p3;
+    margin-left: 20px;
+}

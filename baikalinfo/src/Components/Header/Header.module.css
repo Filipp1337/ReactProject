@@ -1,0 +1,99 @@
+.header {
+    height: 48px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    border-bottom: 1px solid #2AA9E6;
+    box-shadow: 0px 1px 5px;
+    display: grid;    
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas:
+        'a ddlist';
+}
+
+.header a{
+    width: 256px;
+    height: 35px;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #2AA9E6;
+    grid-area: a;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 125px;
+    display: inline;
+}
+
+.dropdown {
+    width: 658px;
+    height: 28px;
+    border: 1px solid #2AA9E6;
+    border-radius: 5px;
+    grid-area: ddlist;
+    
+    margin-left: 70%;
+    color: #2AA9E6;
+    font-weight: bold;
+    margin-top: 10px;
+
+    display: grid;    
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
+    grid-template-areas:
+        'dp1 dp2 dp3 dp4 dp5';
+}
+.dropdown .dp1{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2AA9E6;
+    grid-area: dp1;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.dropdown .dp2{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2AA9E6;
+    grid-area: dp2;
+    margin-top: 5px;
+    margin-left: -45px;
+}
+.dropdown .dp3{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2AA9E6;
+    grid-area: dp3;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.dropdown .dp4{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2AA9E6;
+    grid-area: dp4;
+    margin-top: 5px;
+    margin-left: -45px;
+}
+.dropdown .dp5{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2AA9E6;
+    grid-area: dp5;
+    margin-top: 5px;
+    margin-left: -45px;
+}

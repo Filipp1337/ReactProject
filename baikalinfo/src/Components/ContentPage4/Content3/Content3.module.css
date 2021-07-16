@@ -1,0 +1,38 @@
+.bg {
+    height: 2200px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'headp headp'
+    'posts sn'
+    'posts bp'
+    'posts videos';
+    margin-top: 50px;
+}
+
+
+.headp {
+    grid-area: headp;
+    width: 291px;
+    height: 26px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;    
+    color: #171821;   
+    margin-left: 20px;
+}
+
+.posts {
+    grid-area: posts;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'post1 post2'
+    'post3 post4'
+    'post5 post6';
+    margin-left: -60px;
+}

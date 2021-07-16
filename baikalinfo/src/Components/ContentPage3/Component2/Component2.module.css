@@ -1,0 +1,202 @@
+.bg {
+    background-color: #F7F7F7;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    'phead phead phead'
+    'box1 box2 box3';
+}
+
+.phead {
+    grid-area: phead;
+    width: 194px;
+    height: 28px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;    
+    color: #2AA9E6;
+    margin-left: 40px;
+}
+
+.box1 {
+    grid-area: box1;
+    width: 386px;
+    height: 460px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'boxblack1'
+    'boxwhtie1';
+    margin-top: 40px;
+    margin-left: -25px;
+}
+.box1 .boxblack1 {
+    width: 386px;
+    height: 270px;
+    background: #171821;
+    grid-area: boxblack1;
+}
+.box1 .boxwhite1 {
+    width: 386px;
+    height: 190px;
+    background: #FFFFFF;
+    grid-area: boxwhtie1;
+}
+.boxwhite1 .pp1 {
+    width: 182px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+    margin-top: 20px;
+}
+.boxwhite1 .pp2 {
+    width: 338px;
+    height: 41px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;    
+    color: #171821;
+}
+.boxwhite1 .pp3 {
+    width: 229px;
+    height: 14px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: lowercase;    
+    color: #54555E;
+}
+
+.box2 {
+    grid-area: box2;
+    width: 386px;
+    height: 460px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'boxblack2'
+    'boxwhtie2';
+    margin-top: 40px;
+    margin-left: -27.5px;
+}
+.box2 .boxblack2 {
+    width: 386px;
+    height: 270px;
+    background: #171821;
+    grid-area: boxblack2;
+}
+.box2 .boxwhite2 {
+    width: 386px;
+    height: 190px;
+    background: #FFFFFF;
+    grid-area: boxwhtie2;
+}
+.boxwhite2 .pp1 {
+    width: 182px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+    margin-top: 20px;
+}
+.boxwhite2 .pp2 {
+    width: 338px;
+    height: 41px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;    
+    color: #171821;
+}
+.boxwhite2 .pp3 {
+    width: 229px;
+    height: 14px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: lowercase;    
+    color: #54555E;
+}
+
+.box3 {
+    grid-area: box3;
+    width: 386px;
+    height: 460px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'boxblack3'
+    'boxwhtie3';
+    margin-top: 40px;
+    margin-left: -30px;
+}
+.box3 .boxblack3 {
+    width: 386px;
+    height: 270px;
+    background: #171821;
+    grid-area: boxblack3;
+}
+.box3 .boxwhite3 {
+    width: 386px;
+    height: 190px;
+    background: #FFFFFF;
+    grid-area: boxwhtie3;
+}
+.boxwhite3 .pp1 {
+    width: 182px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+    margin-top: 20px;
+}
+.boxwhite3 .pp2 {
+    width: 338px;
+    height: 41px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;    
+    color: #171821;
+}
+.boxwhite3 .pp3 {
+    width: 229px;
+    height: 14px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: lowercase;    
+    color: #54555E;
+}

@@ -1,0 +1,80 @@
+.bg {
+    grid-area: inst;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'head'
+    'boxs';
+    margin-top: 40px;
+}
+
+.head {
+    width: 184px;
+    height: 18px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;    
+    color: #171821;
+    grid-area: head;
+    margin-left: 20px;
+}
+
+.boxs {
+    grid-area: boxs;
+    grid-area: inst;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'box1 box2 box3'
+    'box4 box5 box6';
+    margin-left: -450px;
+    margin-top: 20px;
+}
+.boxs .box1 {
+    width: 106px;
+    height: 106px;
+    background: #171821;
+    grid-area: box1;
+    margin-left: 25px;
+}
+.boxs .box2 {
+    width: 106px;
+    height: 106px;
+    background: #171821;
+    grid-area: box2;
+    margin-left: 15px;
+}
+.boxs .box3 {
+    width: 106px;
+    height: 106px;
+    background: #171821;
+    grid-area: box3;
+    margin-right: 15px;
+}
+.boxs .box4 {
+    width: 106px;
+    height: 106px;
+    background: #171821;
+    grid-area: box4;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.boxs .box5 {
+    width: 106px;
+    height: 106px;
+    background: #171821;
+    grid-area: box5;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.boxs .box6 {
+    width: 106px;
+    height: 106px;
+    background: #171821;
+    grid-area: box6;
+    margin-right: 15px;
+    margin-top: 25px;
+}

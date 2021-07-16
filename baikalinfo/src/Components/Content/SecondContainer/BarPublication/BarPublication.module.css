@@ -1,0 +1,125 @@
+.crcl1 {
+  width: 88px;
+  height: 88px;
+  background-color: #171821;
+  border-radius: 50%;
+  margin: 24px 0px 05px 24px;
+  grid-area: crcl1;  
+}
+.crcl2 {
+  width: 88px;
+  height: 88px;
+  background-color: #171821;
+  border-radius: 50%;
+  margin: 34px 0px 05px 24px;
+  grid-area: crcl2;  
+}
+.crcl3 {
+  width: 88px;
+  height: 88px;
+  background-color: #171821;
+  border-radius: 50%;
+  margin: 34px 0px 05px 24px;
+  grid-area: crcl3;  
+}
+.crcl4 {
+  width: 88px;
+  height: 88px;
+  background-color: #171821;
+  border-radius: 50%;
+  margin: 34px 0px 05px 24px;
+  grid-area: crcl4;  
+}
+.bg {
+  width: 366px;
+  height: 566px;
+  background-color: white;
+  grid-area: bp;
+  position: relative;
+    top: 10px;
+    border-radius: 5px;
+    display: grid;    
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas:
+    'hed hed'
+    'crcl1 txtp1'
+    'crcl2 txtp2'
+    'crcl3 txtp3'
+    'crcl4 txtp4';
+    margin-left: 30px;
+}
+.text {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #171821;
+grid-area: hed;
+width: 175px;
+height: 18px;
+}
+.textpubl1 {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: -0.05em;
+color: #171821;
+grid-area: txtp1;
+width: 214px;
+height: 59px;
+margin-right: 40px;
+margin-bottom: 10px;
+padding-top: 10px;
+}
+.textpubl2 {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: -0.05em;
+color: #171821;
+grid-area: txtp2;
+width: 214px;
+height: 59px;
+padding-top: 10px;
+}
+.textpubl3 {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: -0.05em;
+color: #171821;
+grid-area: txtp3;
+width: 214px;
+height: 59px;
+padding-top: 10px;
+}
+.textpubl4 {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: -0.05em;
+color: #171821;
+grid-area: txtp4;
+width: 214px;
+height: 59px;
+padding-top: 10px;
+}
+.p {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #83858F;
+width: 188px;
+height: 16px;
+padding-top: 25px;
+}

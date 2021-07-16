@@ -1,0 +1,205 @@
+.masonrylayout {
+    display: grid;    
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas:
+        'panel1 panel2'
+        'panel3 panel4';
+        margin-right: 80px;
+    grid-area: scc;
+  }
+  .masonrylayoutpanelcontent1 {
+    width: 386px;
+    height: 516px;
+    grid-area: panel1;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  .masonrylayoutpanelcontentblack1 {
+    width: 386px;
+    height: 270px;
+    background-color: #171821;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .masonrylayoutpanelcontentblack1 .p1{
+    color: white;
+    background: #3E3EDD;
+    border-radius: 5px;
+    display: inline;
+    padding: 5px 7px 5px 7px;
+    line-height: 484px;
+    margin-left: 16px;
+  }
+  .masonrylayoutpanelcontentwhite1 {
+    width: 386px;
+    height: 246px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 5px 5px;
+  }
+  .masonrylayoutpanelcontentwhite1 .p1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: -0.05em;      
+    color: #171821;
+    padding: 20px 10px 16px 15px;
+  }
+  .masonrylayoutpanelcontentwhite1 .p2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;      
+    color: #83858F;
+    padding: 0px 0px 0px 15px;
+  }
+
+  .masonrylayoutpanelcontent2 {
+    width: 386px;
+    height: 516px;
+    margin-left: 30px;
+    grid-area: panel2;
+  }
+  .masonrylayoutpanelcontentblack2 {
+    width: 386px;
+    height: 270px;
+    background-color: #171821;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .masonrylayoutpanelcontentblack2 .p1{
+    color: white;
+    background: #7B1FA2;
+    border-radius: 5px;
+    display: inline;
+    padding: 5px 7px 5px 7px;
+    line-height: 484px;
+    margin-left: 16px;
+  }
+  .masonrylayoutpanelcontentwhite2 {
+    width: 386px;
+    height: 246px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 5px 5px;
+  }
+  .masonrylayoutpanelcontentwhite2 .p1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: -0.05em;      
+    color: #171821;
+    padding: 20px 10px 16px 15px;
+  }
+  .masonrylayoutpanelcontentwhite2 .p2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;      
+    color: #83858F;
+    padding: 0px 0px 0px 15px;
+  }
+
+  .masonrylayoutpanelcontent3 {
+    width: 386px;
+    height: 516px;
+    margin-left: 30px;
+    grid-area: panel3;
+  }
+  .masonrylayoutpanelcontentblack3 {
+    width: 386px;
+    height: 270px;
+    background-color: #171821;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .masonrylayoutpanelcontentblack3 .p1{
+    color: white;
+    background: #E65100;
+    border-radius: 5px;
+    display: inline;
+    padding: 5px 7px 5px 7px;
+    line-height: 484px;
+    margin-left: 16px;
+  }
+  .masonrylayoutpanelcontentwhite3 {
+    width: 386px;
+    height: 246px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 5px 5px;
+  }
+  .masonrylayoutpanelcontentwhite3 .p1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: -0.05em;      
+    color: #171821;
+    padding: 20px 10px 16px 15px;
+  }
+  .masonrylayoutpanelcontentwhite3 .p2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;      
+    color: #83858F;
+    padding: 0px 0px 0px 15px;
+  }
+
+  .masonrylayoutpanelcontent4 {
+    width: 386px;
+    height: 516px;
+    margin-left: 30px;
+    grid-area: panel4;
+  }
+  .masonrylayoutpanelcontentblack4 {
+    width: 386px;
+    height: 270px;
+    background-color: #171821;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .masonrylayoutpanelcontentblack4 .p1{
+    color: white;
+    background: #19C22A;
+    border-radius: 5px;
+    display: inline;
+    padding: 5px 7px 5px 7px;
+    line-height: 484px;
+    margin-left: 16px;
+  }
+  .masonrylayoutpanelcontentwhite4 {
+    width: 386px;
+    height: 246px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 5px 5px;
+  }
+  .masonrylayoutpanelcontentwhite4 .p1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: -0.05em;      
+    color: #171821;
+    padding: 20px 10px 16px 15px;
+  }
+  .masonrylayoutpanelcontentwhite4 .p2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;      
+    color: #83858F;
+    padding: 0px 0px 0px 15px;
+  }

@@ -1,0 +1,28 @@
+.bg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    'bdhead bdhead bdhead bdhead'
+    'block1 block2 block3 block4';
+}
+
+.borderhead {
+    width: 1200px;
+    height: 0px;
+    border-top: 2px solid #2AA9E6;
+    margin-top: 50px;
+    grid-area: bdhead;
+    margin-left: 10px;
+}
+.borderhead .phead {
+    width: 309px;
+    height: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;    
+    color: #F44336;
+    margin-top: 32px;
+}

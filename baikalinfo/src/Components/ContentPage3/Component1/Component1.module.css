@@ -1,0 +1,140 @@
+.bg {
+    background-color: white;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'bigbox box2';
+}
+
+.bigbox {
+    grid-area: bigbox;
+    width: 698px;
+    height: 523px;
+    background: #171821;
+    margin-left: 15px;
+}
+
+.box2 {
+    width: 618px;
+    height: 523px;
+    grid-area: box2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'headp'
+    'smallbox1'
+    'smallbox2'
+    'textsc1';
+}
+.box2 .head {
+    width: 152px;
+    height: 18px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;    
+    color: #2AA9E6;
+    grid-area: headp;
+}
+
+.box2 .smallbox1 {
+    width: 120px;
+    height: 96px;
+    background: #171821;
+    grid-area: smallbox1;
+    margin-top: 30px;
+}
+.smallbox1 .p1 {
+    width: 164px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+    margin-left: 96px;
+    margin-top: 5px;    
+}
+.smallbox1 .p2 {
+    width: 360px;
+    height: 37px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;    
+    color: #171821;   
+    margin-left: 96px; 
+}
+
+.box2 .smallbox2 {
+    width: 120px;
+    height: 96px;
+    background: #171821;
+    grid-area: smallbox2;
+    margin-top: 25px;
+}
+.smallbox2 .p1 {
+    width: 164px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+    margin-top: 5px;    
+    margin-left: 96px;
+}
+.smallbox2 .p2 {
+    width: 360px;
+    height: 37px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;    
+    color: #171821;  
+    margin-left: 96px;  
+}
+
+.box2 .textsc1 {
+    width: 484px;
+    height: 189px;
+    background: #FFFFFF;
+    grid-area: textsc1;
+    margin-top: 50px;
+    margin-left: -40px;
+}
+.textsc1 .tp1 {
+    width: 182px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+}
+.textsc1 .tp2 {
+    width: 400px;
+    height: 67px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;    
+    color: #171821;
+}

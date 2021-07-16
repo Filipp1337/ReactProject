@@ -1,0 +1,420 @@
+.bg {
+    background-color: #F7F7F7;
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'phead phead'
+    'box subsc'
+    'box videos'
+    'box inst'
+    'box Ad';
+    height: 1950px;
+}
+
+.phead {
+    grid-area: phead;
+    width: 244px;
+    height: 28px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;    
+    color: #2AA9E6;
+    margin-left: 40px;
+    margin-bottom: -2px;
+}
+.border {
+    width: 754px;
+    border-bottom: 1px solid #E3E4E8;
+    margin-top: 100px;
+    margin-left: -40px;
+}
+.box {
+    grid-area: box;
+    width: 802px;
+    height: 1878px;
+    background: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    'sbox1'
+    'sbox2'
+    'sbox3'
+    'sbox4'
+    'sbox5'
+    'sbox6';
+    margin-left: 14px;
+}
+.box .sbox1 {
+    width: 377px;
+    height: 264px;
+    background: #171821;
+    margin-top: 24px;
+    margin-left: -24px;
+    grid-area: sbox1;
+}
+
+.sbox1 .sb1p1 {
+    width: 182px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox1 .sb1p2 {
+    width: 354px;
+    height: 41px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox1 .sb1p3 {
+    width: 229px;
+    height: 14px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: lowercase;    
+    color: #54555E;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox1 .sb1p4 {
+    width: 324px;
+    height: 58px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+
+.box .sbox2 {
+    width: 377px;
+    height: 264px;
+    background: #171821;
+    margin-top: -14px;
+    margin-left: -24px;
+    grid-area: sbox2;
+}
+
+.sbox2 .sb2p1 {
+    width: 182px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox2 .sb2p2 {
+    width: 354px;
+    height: 41px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox2 .sb2p3 {
+    width: 229px;
+    height: 14px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: lowercase;    
+    color: #54555E;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox2 .sb2p4 {
+    width: 324px;
+    height: 58px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+
+.box .sbox3 {
+    width: 377px;
+    height: 264px;
+    background: #171821;
+    margin-top: -14px;
+    margin-left: -24px;
+    grid-area: sbox3;
+}
+
+.sbox3 .sb3p1 {
+    width: 182px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox3 .sb3p2 {
+    width: 354px;
+    height: 41px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox3 .sb3p3 {
+    width: 229px;
+    height: 14px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: lowercase;    
+    color: #54555E;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox3 .sb3p4 {
+    width: 324px;
+    height: 58px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+
+.box .sbox4 {
+    width: 377px;
+    height: 264px;
+    background: #171821;
+    margin-top: -14px;
+    margin-left: -24px;
+    grid-area: sbox4;
+}
+
+.sbox4 .sb4p1 {
+    width: 182px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox4 .sb4p2 {
+    width: 354px;
+    height: 41px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox4 .sb4p3 {
+    width: 229px;
+    height: 14px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: lowercase;    
+    color: #54555E;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox4 .sb4p4 {
+    width: 324px;
+    height: 58px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+
+.box .sbox5 {
+    width: 377px;
+    height: 264px;
+    background: #171821;
+    margin-top:  -14px;
+    margin-left: -24px;
+    grid-area: sbox5;
+}
+
+.sbox5 .sb5p1 {
+    width: 182px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox5 .sb5p2 {
+    width: 354px;
+    height: 41px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox5 .sb5p3 {
+    width: 229px;
+    height: 14px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: lowercase;    
+    color: #54555E;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox5 .sb5p4 {
+    width: 324px;
+    height: 58px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+
+.box .sbox6 {
+    width: 377px;
+    height: 264px;
+    background: #171821;
+    margin-top: -14px;
+    margin-left: -24px;
+    grid-area: sbox6;
+}
+
+.sbox6 .sb6p1 {
+    width: 182px;
+    height: 15px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox6 .sb6p2 {
+    width: 354px;
+    height: 41px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox6 .sb6p3 {
+    width: 229px;
+    height: 14px;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: lowercase;    
+    color: #54555E;
+    margin-left: 354px;
+    margin-top: 14px;
+}
+.sbox6 .sb6p4 {
+    width: 324px;
+    height: 58px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;    
+    color: #171821;
+    margin-left: 354px;
+    margin-top: 14px;
+}
